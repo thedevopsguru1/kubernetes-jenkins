@@ -61,7 +61,8 @@ spec:
 #######################################################################################################
 
 https://www.youtube.com/watch?v=bcjOOp7x7i0&t=110s
-####### SLAVE#####
+
+
 
 Once after jenkins up and running, navigate to Manage Jenkins --> Configure System ( make sure usage set to "only build jobs with label expresions matching this node" ) --> cloud 
 
