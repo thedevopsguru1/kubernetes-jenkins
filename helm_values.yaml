@@ -625,7 +625,7 @@ agent:
   kubernetesReadTimeout: 15
   maxRequestsPerHostStr: "32"
   namespace:
-  image: "eeacms/jenkins-slave-dind"
+  image: "jenkins/inbound-agent
   tag: "latest"
   workingDir: "/home/jenkins/agent"
   nodeUsageMode: "NORMAL"
