@@ -14,7 +14,7 @@ metadata:
   # nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
 spec:
  rules:
- - host: jenkins.anaeleboo.com
+ - host: jenkins.dts-projects.cloud
    http:
      paths:
      - path: /
@@ -26,5 +26,5 @@ spec:
              name: http
  tls:
  - hosts:
-   - jenkins.anaeleboo.com
+   - jenkins.dts-projects.cloud
    secretName: jenkins-secret # do not change, this is provided by Argo CD
